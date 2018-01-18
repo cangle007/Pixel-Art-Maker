@@ -1,0 +1,62 @@
+html,
+body {
+  max-width: 100%;
+}
+
+.background {
+  margin-top: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  height: 700px;
+}
+
+#canvas {
+  margin-left: 45px;
+  width: 700px;
+  height: 350px;
+  background-color: black;
+  -webkit-box-shadow: 18px 20px 26px 9px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 18px 20px 26px 9px rgba(0, 0, 0, 0.58);
+  box-shadow: 18px 20px 26px 9px rgba(0, 0, 0, 0.58);
+}
+
+#palette {
+  width: 45px;
+  height: 341px;
+  margin-left: 800px;
+  margin-top: -350px;
+  background-color: black;
+  box-shadow: 10px 5px 5px #14141f;
+}
+
+#colorPencil {
+  width: 60px;
+  height: 40px;
+  padding: 5px;
+  margin: 0 auto;
+  margin-left: 860px;
+  margin-top: -90px;
+  border: 2px solid black;
+  border-radius: 20%;
+  box-shadow: 10px 5px 5px #14141f;
+}
+
+.colorDiv {
+  width: 42px;
+  height: 32px;
+  border: thin solid black;
+  cursor: pointer;
+}
+
+#eraser {
+  width: 60px;
+  height: 40px;
+  padding: 5px;
+  margin: 0 auto;
+  margin-left: 860px;
+  margin-top: -380px;
+  border: 2px solid black;
+  border-radius: 20%;
+  box-shadow: 10px 5px 5px #14141f;
+}
